@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer utilities {
+  .logo-script {
+    font-family: 'Pinyon Script', 'Alex Brush', cursive;
+  }
+  .logo-serif {
+    font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  }
+  .serif {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  }
+  .script-font {
+    font-family: 'Pinyon Script', 'Alex Brush', cursive;
+  }
+  .sans-font {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  .nostalgic-border {
+    border: 1px solid rgba(180, 160, 140, 0.3);
+  }
+  .nostalgic-border-dashed {
+    border-bottom: 1px dashed rgba(180, 160, 140, 0.4);
+  }
+  .package-sidebar {
+    background-color: #FFFDFB;
+    border-left: 1px solid rgba(180, 160, 140, 0.25);
+  }
+  .item-card {
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .item-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px -5px rgba(140, 120, 106, 0.12);
+  }
+  .bg-soft-pink {
+    background-color: #F8ECE8;
+  }
+  .bg-sage {
+    background-color: #E5EBE6;
+  }
+  .bg-linen {
+    background-color: #F9F7F2;
+  }
+  .btn-primary {
+    background-color: #8C786A;
+    color: #ffffff;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  .btn-primary:hover {
+    background-color: #786558;
+  }
+  .btn-secondary {
+    background-color: #EFE8E1;
+    color: #4A3E3D;
+    border: 1px solid rgba(180, 160, 140, 0.3);
+  }
+  .btn-secondary:hover {
+    background-color: #E4D9CE;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #F9F7F2;
+  color: #3A3530;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for artistic flair */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFEA;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C3B3;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8A594;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Nostalgia - Bachelorette Packages",
+  "description": "Bespoke, heartfelt bachelorette package catalog and builder featuring personalized items, bride/bridesmaid quantity calculations, and custom memory details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
