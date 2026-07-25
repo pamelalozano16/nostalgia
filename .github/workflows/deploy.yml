@@ -30,10 +30,13 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-package-lock --include=optional
         
       - name: Build
         run: npm run build
+        env:
+          VITE_ADMIN_CODE: ${{ secrets.VITE_ADMIN_CODE }}
+
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
