@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/nostalgia/',
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.ADMIN_CODE': JSON.stringify(process.env.ADMIN_CODE || process.env.VITE_ADMIN_CODE || ''),
