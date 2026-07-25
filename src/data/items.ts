@@ -7,9 +7,9 @@ export const INITIAL_OWNER_CONFIG: OwnerConfig = {
   businessName: 'Nostalgia',
   tagline: 'Memorias, risas y detalles inolvidables para el gran día de la novia.',
   currencySymbol: '$',
-  whatsappNumber: '+528110002233',
-  instagramHandle: '@nostalgia.bachelorette',
-  contactEmail: 'pamelalozano16@gmail..com',
+  whatsappNumber: '+528119903632',
+  instagramHandle: '@nostalgiamomentos__',
+  contactEmail: 'mirandamohamed00@gmail..com',
 };
 
 export const INITIAL_ITEMS: CatalogItem[] = [
